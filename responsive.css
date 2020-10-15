@@ -1,5 +1,31 @@
 /* タブレット向けレイアウト */
+@media all and (max-width: 800px) {
+  .header-right {
+    display: none;
+  }
 
-@media (max-width: 1000px) {
+  .menu-icon {
+    display: inline;
+  }
+
+  .close {
+    color: tomato;
+  }
+
+
+}
+
+
+/* スマホ向けレイアウト */
+
+@media all and (max-width: 670px) {
+
+
+  .hero-wrapper h1 {
+    font-size: 90px;
+}
+  .hero-wrapper p {
+    font-size: 18px;
+  }
 
 }

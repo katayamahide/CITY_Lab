@@ -24,7 +24,7 @@ header {
   max-width: 1170px;
   margin: 0 auto;
   display:flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -42,6 +42,16 @@ header {
 
 .header-logo span {
   color: #30d0ed;
+}
+
+/* ハンバーガーメニュー */
+.menu-icon {
+  color: #029ae2;
+  line-height: 65px;
+  margin-right: 30px;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 /* ヘッダー右 */
