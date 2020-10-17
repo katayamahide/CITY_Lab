@@ -69,7 +69,11 @@ header {
   color: #ffffff;
   line-height: 65px;
   text-align: center;
+  transition: all 500ms linear;
 }
+
+.header-contact:hover {
+background-color: #029ae2;}
 
 /* ヘッダーナビ */
 .header-nav {
@@ -78,14 +82,19 @@ header {
   align-items: center;
 }
 
-.header-nav a{
+.header-nav a {
   display: block;
   margin: 0 15px;
   font-family: 'ヒラギノ角ゴ ProN';
+  line-height: 40px;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: #333333;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
 }
 
 /* ヒーロー */
